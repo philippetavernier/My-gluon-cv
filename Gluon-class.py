@@ -7,6 +7,7 @@ filename = 'classification-demo1.png'
 # you may modify it to switch to another model. The name is case-insensitive
 model_name = 'ResNet50_v1d'
 # download and load the pre-trained model
+# /Users/phil/.mxnet/models/resnet50_v1d-117a384e.zip
 net = gluoncv.model_zoo.get_model(model_name, pretrained=True)
 # load image
 img = mx.image.imread(filename)
